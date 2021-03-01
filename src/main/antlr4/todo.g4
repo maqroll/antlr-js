@@ -1,6 +1,6 @@
 // Our grammar is called C3PO.
 grammar todo;
-// We define expression to be either a method call or a string.
+// We define expression to be either a msethod call or a string.
 expression
     : methodCall
     | STRING
