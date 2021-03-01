@@ -5,39 +5,39 @@
 // This class defines a complete listener for a parse tree produced by todoParser.
 export default class todoListener extends antlr4.tree.ParseTreeListener {
 
-	// Enter a parse tree produced by todoParser#rule_enum.
-	enterRule_enum(ctx) {
+	// Enter a parse tree produced by todoParser#expression.
+	enterExpression(ctx) {
 	}
 
-	// Exit a parse tree produced by todoParser#rule_enum.
-	exitRule_enum(ctx) {
-	}
-
-
-	// Enter a parse tree produced by todoParser#enum_values.
-	enterEnum_values(ctx) {
-	}
-
-	// Exit a parse tree produced by todoParser#enum_values.
-	exitEnum_values(ctx) {
+	// Exit a parse tree produced by todoParser#expression.
+	exitExpression(ctx) {
 	}
 
 
-	// Enter a parse tree produced by todoParser#enum_value.
-	enterEnum_value(ctx) {
+	// Enter a parse tree produced by todoParser#methodCall.
+	enterMethodCall(ctx) {
 	}
 
-	// Exit a parse tree produced by todoParser#enum_value.
-	exitEnum_value(ctx) {
+	// Exit a parse tree produced by todoParser#methodCall.
+	exitMethodCall(ctx) {
 	}
 
 
-	// Enter a parse tree produced by todoParser#number.
-	enterNumber(ctx) {
+	// Enter a parse tree produced by todoParser#methodName.
+	enterMethodName(ctx) {
 	}
 
-	// Exit a parse tree produced by todoParser#number.
-	exitNumber(ctx) {
+	// Exit a parse tree produced by todoParser#methodName.
+	exitMethodName(ctx) {
+	}
+
+
+	// Enter a parse tree produced by todoParser#methodCallArguments.
+	enterMethodCallArguments(ctx) {
+	}
+
+	// Exit a parse tree produced by todoParser#methodCallArguments.
+	exitMethodCallArguments(ctx) {
 	}
 
 
