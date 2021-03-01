@@ -1,6 +1,6 @@
 // Generated from todo.g4 by ANTLR 4.9.1
 // jshint ignore: start
-import antlr4 from 'antlr4';
+//import antlr4 from 'antlr4';
 import todoListener from './todoListener.js';
 
 const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
