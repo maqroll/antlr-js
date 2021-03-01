@@ -14,7 +14,7 @@ PLUS    : '+';
 MINUS   : '-';
 PROD    : '*';
 POWER   : '^';
-NUM     : [0-9.]+;
+NUM     : [0-9]+;
 VAR     : [a-z];
 WS      : ' ' -> skip;
 
